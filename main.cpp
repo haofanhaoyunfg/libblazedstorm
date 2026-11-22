@@ -7,12 +7,6 @@ void min_of_two() {
     (void)m;
 }
 
-void sum_squares() {
-    int acc = 0;
-    for (int i = -5; i <= 5; ++i) acc += i * i;
-    (void)acc;
-}
-
 void square_value() {
     int x = 12;
     int square = x * x;
@@ -27,19 +21,18 @@ void count_zeros() {
 }
 
 extern "C" int silver_ripple();
-extern "C" void lunar_compass();
 extern "C" void sable_quartz();
-extern "C" void hidden_thorn();
-extern "C" void gentle_harbor();
+extern "C" void frost_bridge();
+extern "C" void ivory_ripple();
+extern "C" void swift_cove();
 
 int main() {
     min_of_two();
-    sum_squares();
     square_value();
     count_zeros();
-    lunar_compass();
     sable_quartz();
-    hidden_thorn();
-    gentle_harbor();
+    frost_bridge();
+    ivory_ripple();
+    swift_cove();
     return silver_ripple();
 }
